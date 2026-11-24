@@ -4,4 +4,4 @@
 
 # One-Line Roast: The Gadget You Use Every Day
 
-One-line roast entry for the make.fun bounty "One-Line Roast: The Gadget You Use Every Day". The program `main.py` writes a single original line to `/output/entry.txt` — a roast of the phone's face unlock, which recognises its owner everywhere except at 7 a.m., when it stares back like a stranger is trying to break in.
+One-line roast entry for the make.fun bounty "One-Line Roast: The Gadget You Use Every Day". The program `main.py` writes a single original line to `/output/entry.txt` — a roast of the smartwatch that buzzes every hour telling its owner to stand up, while they are already standing at the sink doing dishes: it tracks the wrist, not the life.
