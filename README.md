@@ -4,4 +4,4 @@
 
 # One-Line Roast: The Gadget You Use Every Day
 
-One-line roast entry for the make.fun bounty "One-Line Roast: The Gadget You Use Every Day". The program `main.py` writes a single original line to `/output/entry.txt` — a roast of the robot vacuum that has mapped the whole house and learned the schedule, yet still eats the same charging cable every single day.
+One-line roast entry for the make.fun bounty "One-Line Roast: The Gadget You Use Every Day". The program `main.py` writes a single original line to `/output/entry.txt` — a roast of the washing machine that plays a cheerful little tune when it finishes, like the laundry was its triumph and the folding is somehow still my job.
