@@ -1,13 +1,13 @@
 """One-line roast entry for the make.fun bounty 'One-Line Roast: The Gadget You Use Every Day'.
 
-Round 3 revision: the roast is now my robot vacuum, which has mapped
-the whole house and learned my schedule, yet still eats the same
-charging cable every single day. The joke lands because it picks a
-specific, lived-in failure mode — a supposedly smart machine defeated
-daily by the one cable it lives next to — instead of the tired
-battery-life cliche every gadget roast reaches for. A robot vacuum is
-supposed to know the floor better than I do; the punchline is that it
-knows the house and still loses to the cable.
+Latest revision: the roast is now my washing machine, which celebrates
+the end of every cycle with a cheerful little tune — as if getting the
+clothes clean were its triumph, while the folding, the hanging up, and
+the putting away are somehow still my job. The joke works because it
+catches a real, specific behaviour: the machine genuinely congratulates
+itself, out loud, for the easy half of the chore and leaves the boring
+half to me. A washing machine that sings about its own success holds a
+very generous opinion of itself.
 
 Writes a single original roast line to /output/entry.txt.
 Deterministic: no network, no randomness, no environment reads.
@@ -15,12 +15,12 @@ Deterministic: no network, no randomness, no environment reads.
 
 import os
 
-ROAST = "My robot vacuum has mapped my whole house, learned my schedule, and still eats the same charging cable every single day."
+ROAST = "My washing machine plays a cheerful little tune when it finishes, like the laundry was its triumph and the folding is somehow still my job."
 
 
 def main() -> None:
-    # The bounty caps the roast at 200 characters; this entry is 119, so the
-    # gate only guards against accidental edits that would push it over.
+    # The bounty caps the roast at 200 characters; this entry is 139, so the
+    # check only guards against accidental edits that would push it over.
     assert 1 <= len(ROAST) <= 200
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8", newline="") as f:
