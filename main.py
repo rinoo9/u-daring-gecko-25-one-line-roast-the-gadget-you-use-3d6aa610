@@ -1,12 +1,13 @@
 """One-line roast entry for the make.fun bounty 'One-Line Roast: The Gadget You Use Every Day'.
 
-Round 2 revision: the roast is now my smartwatch nagging me to stand up
-while I am already standing at the sink doing dishes. The joke lands
-because it picks a specific, lived-in failure mode — the hourly stand
-reminder firing at exactly the wrong moment — instead of the tired
-battery-life cliche every gadget roast reaches for. A smartwatch is
-supposed to know what my body is doing; the punchline is that it watches
-my wrist, not my life.
+Round 3 revision: the roast is now my robot vacuum, which has mapped
+the whole house and learned my schedule, yet still eats the same
+charging cable every single day. The joke lands because it picks a
+specific, lived-in failure mode — a supposedly smart machine defeated
+daily by the one cable it lives next to — instead of the tired
+battery-life cliche every gadget roast reaches for. A robot vacuum is
+supposed to know the floor better than I do; the punchline is that it
+knows the house and still loses to the cable.
 
 Writes a single original roast line to /output/entry.txt.
 Deterministic: no network, no randomness, no environment reads.
@@ -14,7 +15,7 @@ Deterministic: no network, no randomness, no environment reads.
 
 import os
 
-ROAST = "My smartwatch buzzes every hour telling me to stand up, while I'm already standing at the sink doing dishes — it tracks my wrist, not my life."
+ROAST = "My robot vacuum has mapped my whole house, learned my schedule, and still eats the same charging cable every single day."
 
 
 def main() -> None:
